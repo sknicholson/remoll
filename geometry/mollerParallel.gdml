@@ -1531,11 +1531,12 @@
     <position name="USTorus_VirtualPlane2_pos" unit="mm" x="0" y="-150" z="1100"/>
   </physvol>
     
-  <physvol name="sieveVirtualPlane_phys">
+  <!--  <physvol name="sieveVirtualPlane_phys">
     <volumeref ref="sieveVirtualPlane_log"/>
     <positionref ref="sieveVirtualPlane_pos"/>
   </physvol>
-  
+  -->
+
     <physvol name="HallExit_phys">
       <volumeref ref="HallExit_log"/>
       <position  name="HallExit_pos" unit="mm" x="0" y="0" z="26200"/>
